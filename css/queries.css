@@ -1,0 +1,85 @@
+/*------------------------------------------------- */
+/* Small tablets to big tablets: from 768px to 1023px */
+/*------------------------------------------------- */
+
+@media only screen and (max-width: 1023px) {
+   .col-sm { width: 20%; }
+    .container { width: auto; }
+   h3 { font-size: 130%; }
+   .info-text { font-size: 80%; }
+   .info-pic { margin: 0 auto; }
+}
+
+/*------------------------------------------------- */
+/* Small Phones to small tablets: from 481px to 767px */
+/*------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    h3 { font-size: 180%; }
+    h1 { 
+        font-size: 150%;
+        text-align: right;
+    }
+   .info-text { font-size: 100%; }
+
+   .main-pic { 
+       width: 50%; 
+       height: auto;
+   }
+   .header-wrapper-item { width: 50%; }
+
+   .header-wrapper { padding-top: 30px; }
+
+   .logo {
+       display: block;
+       text-align: center;
+   }
+   
+   .main-pic { margin: 0}
+
+   .header-wrapper-item {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .btn-download:link,
+   .btn-download:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 120%;
+    margin: 0 auto;
+   }
+
+   .section-bar .container .row { 
+       display: flex; 
+       justify-content: center;
+    }
+
+   .col-md { 
+       width: 40%; 
+       margin-bottom: 40px;
+    }
+
+   .section-bar .container .btn-download { margin: 0 auto; }
+
+   .info-title { text-align: center; }
+   .info-text { text-align: center; }
+}
+
+/*------------------------------------------------- */
+/* Small Phones: from 360px to 480px */
+/*------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+    h3{ font-size: 150%; }
+    .info-pic { width: 100%; }
+    /* .info-title { text-align: center; } */
+
+    .footer-text { text-align: center; }
+
+    .header-title { 
+        font-size: 120%; 
+        margin: 25px 0;
+    }
+    
+}
